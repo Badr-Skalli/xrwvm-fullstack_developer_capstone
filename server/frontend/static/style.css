@@ -124,3 +124,37 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+/* Contact page styling */
+
+.contact-content {
+    align-items: stretch;
+}
+
+.support-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid rgb(103, 102, 105);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-info p {
+    margin-bottom: 0;
+}
+
+.contact-info a {
+    color: rgb(97, 64, 128);
+    text-decoration: none;
+}
+
+.contact-us-image {
+    width: 40%;
+}
